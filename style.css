@@ -1,0 +1,44 @@
+.sidebar {
+    height:100%;
+    width:200px;
+    background-color: #14dc8c;
+    position:fixed!important;
+    z-index:1;
+    overflow:auto;
+}
+
+.bar-block .bar-item {
+    width:100%;
+    display:block;
+    padding:8px 16px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0;
+}
+
+#navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+
+#navbar a:hover {
+    color:white;
+    background-color: #38c28b;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+@media screen and (max-height: 450px) {
+    #navbar {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
+}
