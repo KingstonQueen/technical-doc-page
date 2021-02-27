@@ -58,16 +58,19 @@ code {
     position: relative;
     word-break: normal;
     word-wrap: normal;
-    background-color: lightgray;
+    background-color: rgb(238, 237, 237);
     padding: 5px;
     line-height: 1.5;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 @media screen and (max-height: 450px) {
     #navbar {padding-top: 15px;}
-    #navbar a {font-size: 8px;}
+    #navbar a {font-size: 12px;}
 }
 
