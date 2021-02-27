@@ -53,5 +53,6 @@ h2 {
 
 @media screen and (max-height: 450px) {
     #navbar {padding-top: 15px;}
-    #navbar a {font-size: 18px;}
+    #navbar a {font-size: 8px;}
 }
+
