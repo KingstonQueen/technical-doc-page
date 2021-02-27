@@ -21,8 +21,6 @@
     <hr class="solid">
     <a class="bar-item" href="#black_holes">Black Holes</a>
     <hr class="solid">
-    <a class="bar-item" href="#galaxies">Galaxies</a>
-    <hr class="solid">
 </nav>
 
 
@@ -31,7 +29,7 @@
 <!--Header-->
 <div class="container">
 <header class="navbar" id="header">
-    <h1 style="text-align: center; padding-top: 20px; font-size: 40px;">The Physics of Space</h1>
+    <h1 style="text-align: center; padding-top: 20px; font-size: 40px;">The Physics of Spacetime</h1>
     <p style="text-align: center;">E. Kingston</p>
 </header>
 </div>
@@ -60,6 +58,20 @@
     <p class="paragraph">Special Relativity is the notion set forth by Albert Einstein that the velocity of an object is relative to the motion of the object(s) around it. There is only one type of motion in the universe that travels at a consistant rate, which is the speed of light. All other objects are traveling at a rate only measurable in comparison to their environment.</p>
     <p class="paragraph">For example, a seemingly motionless object sat upon a shelf would be described by an observer as not moving. Yet, its true velocity exists, just not in comparison to other objects. This is because the Earth is in contant motion, making all objects on the planet travel throughout the universe at a positive rate of velocity.</p>
     <p class="paragraph">Another classic example of Special Relativity could be observed within a car traveling down a highway. If the driver was to toss a pen to the backseat passenger, the pen looks to only be moving at a couple of miles per hour. Yet, because the pen is traveling at the same velocity of the car until it is thrown to the back, it travels faster than the car for a moment. The passengers in the car only observe the difference in speed between themselves and the pen, yet someone standing on the side of the road who witnesses the event would see the pen travel through the air at a much faster rate.</p>
+    <br>
+    <p style="text-align: center; font-weight: 600;">E=MC^2</p>
+    <p style="margin-left:100px;">Step 1:</p>
+    <code>
+        function mc(mass, acceleration) {
+            return mass * acceleration
+        }
+    </code>
+    <p style="margin-left:100px;">Step 2:</p>
+    <code>
+        function energy(mc) {
+            return mc * mc
+        }
+    </code>
 </section>
     
 <!--Section 3-->
@@ -70,8 +82,28 @@
     </header>
     <p class="paragraph">Euclid of Alexandria's work in geometry gave way to the Euclidian Theory that proposed space to be mapped out with straight lines and angles. This theory would be proven incorrect as humans discovered the curves of spacetime and how they interact with matter in the universe.</p>
     <p class="paragraph">After the theory of Special Relativity was developed by Einstein, a scientist named Arthur Eddington was able to see changes in spacetime by watching the movements of stars. Hermann Minkowski build upon these calculations by mapping out points in space by three axes of physical placement along with a fourth axis that accounted for the time at which the object resided at that particular point.</p>
-    <p class="paragraph">With this knowlede, scientist then began to make inferences off of the fact that light travels in a curve, just like planets and even aircrafts as they fly in the sky. Since airplanes can fly straight without changing their distance above the earth, spacetime can be observed as having a physical impact on any object as it travels through air and space.</p>
+    <p class="paragraph">With this knowledge, scientist then began to make inferences off of the fact that light travels in a curve, just like planets and even aircrafts as they fly in the sky. Since airplanes can fly straight without changing their distance above the earth, spacetime can be observed as having a physical impact on any object as it travels through air and space.</p>
     <p class="paragraph">Therefore, spacetime is not built as a grid system made of straight lines and angles. It curves and changes as it is impacted by the gravitational forces of moving matter in the universe.</p>
+    <br>
+    <p style="text-align: center; font-weight: 600;">Light Speed Calculations</p>
+    <br>
+    <p style="margin-left:100px">How long it takes for light from the sun to get to Earth:</p>
+    <code>
+        const kilometers = 150000000
+        const seconds = 300000
+        function time(kilometers, seconds) {
+            return kilometers/seconds
+        }
+    </code>
+    <br>
+    <p style="margin-left: 100px;">Calculate lightspeed of other objects with this:</p>
+    <code>
+        const kilometers = object's distance
+        const seconds = 300000
+        function time(kilometers, seconds) {
+            return kilometers/seconds
+        }
+    </code>
 </section>
 
 <!--Section 4-->
@@ -80,21 +112,10 @@
     <header id="black_holes">
             <h2>Black Holes</h2>
         </header>
-    <p class="paragraph">Black Holes are created by shifts in matter as they occur in spacetime. At the end of a massive star's lifetime, it will die and collapse under the pressure of its own gravitational forces, resulting in a supernova explosion.</p>
-    <p class="paragraph"></p>
+    <p class="paragraph">Black Holes are created by shifts in matter as they occur in spacetime. At the end of a massive star's lifetime, it will die and collapse under the pressure of its own gravitational forces, resulting in a supernova explosion. In this explosion, the outer parts of a star are shot out into space, sometimes leaving the core. If this core remains to be at least 1.4 times the mass of the sun, the star will undergos another process of shrinking as it continues to collapse under its own gravitational pull. This is due to the stars instability as such a massive object with dense properties.</p>
+    <p class="paragraph">The core of the star soon becomes a singularity with infinite density. The density is so incredible that it shifts the spacetime around it like a bowling ball sinking into the fabric holding it up. As the singularity falls further and further into the fabric of spacetime, a gravity well is created and spacetime twists. The gravity well now has the ability to begin pulling outside objects into what is now called a black hole. At the top of the gravity well, there lies an event horizon. The event horizon is the meeting place of outer space and the black hole.</p>
+    <p class="paragraph">The reason we can't see into a black hole is because the twisting of spacetime causes a distortion of space and time that never ends as it continues deeper and deeper. Time no longer exists in ordinary fashion, nor does the physical placement of matter.</p>
 </section>
-
-<!--Section 5-->
-<section class="main-section">
-    <hr class="solid">
-        <header id="galaxies">
-                <h2>Galaxies</h2>
-            </header>
-        <p class="paragraph"></p>
-        <p class="paragraph"></p>
-    </section>
-    </div>
-    <hr class="solid">
 
 </div>
 </main>

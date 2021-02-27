@@ -51,6 +51,21 @@ h2 {
     line-height: 25px;
 }
 
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    background-color: lightgray;
+    padding: 5px;
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 15px;
+}
+
 @media screen and (max-height: 450px) {
     #navbar {padding-top: 15px;}
     #navbar a {font-size: 8px;}
